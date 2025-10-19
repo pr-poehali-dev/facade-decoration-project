@@ -136,7 +136,41 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="services" className="py-20 bg-gradient-to-b from-background to-muted/20">
+      <section className="py-20 bg-gradient-to-b from-background to-primary/5">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Наши работы</h2>
+            <p className="text-xl text-muted-foreground">Превращаем обычные фасады в яркие произведения искусства</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            {[
+              { url: 'https://cdn.poehali.dev/files/5417da04-b9f0-4aaf-ab87-a996c4b5bfa1.jpg', title: 'Осеннее оформление', desc: 'Уютная входная группа' },
+              { url: 'https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/44520b0e-a8a6-42b3-8b89-3446212a4164.jpg', title: 'Новогодний декор', desc: 'Праздничная витрина' },
+              { url: 'https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/4bb51229-9daf-43e6-b740-80d05a68c85d.jpg', title: 'День открытия', desc: 'Яркое торжество' },
+              { url: 'https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/5e2fa481-ef74-430e-8d3d-dd300eb02f43.jpg', title: 'Салон красоты', desc: 'Элегантный стиль' }
+            ].map((item, index) => (
+              <div key={index} className="group cursor-pointer">
+                <div className="relative overflow-hidden rounded-2xl aspect-square mb-3">
+                  <img 
+                    src={item.url} 
+                    alt={item.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                    <div className="text-white">
+                      <h4 className="font-bold text-lg mb-1">{item.title}</h4>
+                      <p className="text-sm text-white/90">{item.desc}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="services" className="py-20 bg-gradient-to-b from-primary/5 to-muted/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Наши услуги</h2>
