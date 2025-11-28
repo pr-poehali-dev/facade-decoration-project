@@ -182,7 +182,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-gray-900 text-white py-8">
+      <footer className="bg-black/50 text-white py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Sparkles" size={24} />
