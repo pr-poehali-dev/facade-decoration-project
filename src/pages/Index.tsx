@@ -50,7 +50,7 @@ const Index = () => {
 
   const portfolio = [
     {
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/80b18071-9bfc-4966-87b5-0b6329f8fc91.jpg",
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/4708eb24-9c92-4e87-9e3a-cd43eb84657e.jpg",
       title: "Салон красоты"
     },
     {
