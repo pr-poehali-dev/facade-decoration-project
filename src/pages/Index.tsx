@@ -169,14 +169,22 @@ const Index = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Свяжитесь с нами сегодня, и мы создадим яркое оформление для вашего бизнеса
           </p>
+          <div className="mb-6">
+            <p className="text-2xl font-semibold mb-2">Мария</p>
+            <p className="text-lg opacity-90">Менеджер проектов</p>
+          </div>
           <div className="flex gap-4 justify-center flex-wrap">
-            <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
-              <Icon name="Phone" className="mr-2" size={20} />
-              +7 (XXX) XXX-XX-XX
+            <Button size="lg" className="bg-white text-primary hover:bg-gray-100" asChild>
+              <a href="tel:+79313573080">
+                <Icon name="Phone" className="mr-2" size={20} />
+                +7 (931) 357-30-80
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              <Icon name="Mail" className="mr-2" size={20} />
-              Написать Email
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+              <a href="https://wa.me/79313573080" target="_blank" rel="noopener noreferrer">
+                <Icon name="MessageCircle" className="mr-2" size={20} />
+                WhatsApp
+              </a>
             </Button>
           </div>
         </div>
