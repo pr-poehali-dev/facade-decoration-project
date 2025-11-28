@@ -5,37 +5,37 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   const services = [
     {
-      icon: "PartyPopper",
-      title: "Дни рождения",
-      description: "Яркое оформление для незабываемого праздника",
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/f9277491-eadd-413d-af59-9a1cd14ea82a.jpg"
+      icon: "Store",
+      title: "День открытия",
+      description: "Яркое оформление входной группы для запуска вашего бизнеса",
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/80b18071-9bfc-4966-87b5-0b6329f8fc91.jpg"
     },
     {
-      icon: "Heart",
-      title: "Свадьбы",
-      description: "Романтичный декор для особенного дня",
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/4bce07c5-4857-4cb6-9bac-ad0152c5ad89.jpg"
+      icon: "Snowflake",
+      title: "Новогоднее оформление",
+      description: "Праздничное декорирование фасадов и витрин",
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/4b651c3b-b0bf-4735-b704-88694ab1f801.jpg"
     },
     {
-      icon: "Sparkles",
-      title: "Корпоративы",
-      description: "Стильное украшение деловых мероприятий",
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/348be050-bbe0-4fee-ad98-6ba75ad76be6.jpg"
+      icon: "Leaf",
+      title: "Осенняя тематика",
+      description: "Уютное сезонное украшение в теплых тонах",
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/5f903443-b4fc-45ee-8068-4e8869633465.jpg"
     }
   ];
 
   const portfolio = [
     {
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/f9277491-eadd-413d-af59-9a1cd14ea82a.jpg",
-      title: "День рождения"
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/80b18071-9bfc-4966-87b5-0b6329f8fc91.jpg",
+      title: "Салон красоты"
     },
     {
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/4bce07c5-4857-4cb6-9bac-ad0152c5ad89.jpg",
-      title: "Свадьба"
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/4b651c3b-b0bf-4735-b704-88694ab1f801.jpg",
+      title: "Магазин к Новому году"
     },
     {
-      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/348be050-bbe0-4fee-ad98-6ba75ad76be6.jpg",
-      title: "Корпоратив"
+      image: "https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/5f903443-b4fc-45ee-8068-4e8869633465.jpg",
+      title: "Кафе осенью"
     }
   ];
 
@@ -62,10 +62,10 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto animate-fade-in">
             <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Превращаем праздники в сказку
+              Превращаем фасады в произведения искусства
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Профессиональное оформление любых мероприятий. Создаём атмосферу волшебства для ваших особенных моментов
+              Профессиональное декорирование зданий, витрин и входных групп. Украшаем магазины, салоны красоты и коммерческие помещения
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
@@ -116,10 +116,10 @@ const Index = () => {
               <h2 className="text-4xl font-bold mb-6">Почему выбирают нас?</h2>
               <div className="space-y-6">
                 {[
-                  { icon: "CheckCircle2", text: "Индивидуальный подход к каждому клиенту" },
-                  { icon: "Clock", text: "Оперативная подготовка и установка декора" },
-                  { icon: "Palette", text: "Широкий выбор стилей и цветовых решений" },
-                  { icon: "ThumbsUp", text: "Гарантия качества и внимание к деталям" }
+                  { icon: "CheckCircle2", text: "Работаем с любыми коммерческими объектами" },
+                  { icon: "Clock", text: "Быстрый монтаж и демонтаж декораций" },
+                  { icon: "Palette", text: "Украшения под любой праздник и сезон" },
+                  { icon: "ThumbsUp", text: "Привлекаем внимание к вашему бизнесу" }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
                     <div className="p-2 bg-primary rounded-lg mt-1">
@@ -133,7 +133,7 @@ const Index = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-3xl transform rotate-3"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/348be050-bbe0-4fee-ad98-6ba75ad76be6.jpg"
+                src="https://cdn.poehali.dev/projects/e1912c10-6b89-478e-b548-2187c464f785/files/80b18071-9bfc-4966-87b5-0b6329f8fc91.jpg"
                 alt="Наша работа"
                 className="relative rounded-3xl shadow-2xl w-full"
               />
@@ -165,9 +165,9 @@ const Index = () => {
       <section id="contact" className="bg-gradient-to-r from-primary via-secondary to-accent py-20 text-white">
         <div className="container mx-auto px-4 text-center">
           <Icon name="Sparkles" className="mx-auto mb-6" size={48} />
-          <h2 className="text-4xl font-bold mb-6">Готовы украсить ваш праздник?</h2>
+          <h2 className="text-4xl font-bold mb-6">Готовы украсить ваш фасад?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Свяжитесь с нами сегодня, и мы создадим незабываемую атмосферу для вашего события
+            Свяжитесь с нами сегодня, и мы создадим яркое оформление для вашего бизнеса
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
