@@ -191,7 +191,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <Icon name="Sparkles" className="mx-auto mb-6 text-primary" size={48} />
-              <h2 className="text-4xl font-bold mb-6">Готовы украсить ваш фасад?</h2>
+              <h2 className="text-4xl font-bold mb-6">А вы готовы к празднику?</h2>
               <p className="text-xl text-muted-foreground mb-8">
                 Свяжитесь с нами сегодня, и мы создадим яркое оформление для вашего бизнеса
               </p>
